@@ -1,4 +1,4 @@
-#java program to calculate simple interest
+//java program to calculate simple interest
 public class SimpleInterest {
 
     public void calculate(int principal, int time, int rate) {
