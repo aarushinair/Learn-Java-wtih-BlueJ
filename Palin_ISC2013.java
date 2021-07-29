@@ -93,3 +93,20 @@ Step 5   :               Extract characters from the end of the original string 
 Step 6   :               If the reverse word obtained (rev) is equal to the original String (s), then return true, otherwise return false.
 Step 7   :               End of algorithm for the function isPalin().
 */
+
+
+
+
+
+
+
+
+
+
+👋 Hi, I’m @aarushinair - Aarushi Nair (she/her/ella)
+👀 I’m a Computer Science Engineering Student
+💞️ I’m looking to collaborate on #java, #python, #R, #applicationdevelopment
+🌱 #GirlsWhoCode #WomenInTech #WomenInIT #WomenInSTEM #CyberSecurity #QuantumComputing #BlockChain #AI #ML
+📫 How to reach me: https://www.linkedin.com/in/aarushinair/
+👩‍🏫 YouTube Channel - Code with Aarushi : https://www.youtube.com/channel/UCKj5T1ELHCmkGKujkpqtl7Q
+🙋‍ Follow me on Twitter: https://twitter.com/aarushinair_
