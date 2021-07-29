@@ -9,13 +9,13 @@ You may download BlueJ here - https://www.bluej.org/
 
 BlueJ is a free Java Development Environment designed for beginners, used by millions worldwide.
 
- 
- 
- 
- 
- 
- 
- 
+✨ 
+✨
+✨ 
+✨ 
+✨ 
+✨ 
+✨ 
  
 👋 Hi, I’m @aarushinair - Aarushi Nair (she/her/ella)
 
