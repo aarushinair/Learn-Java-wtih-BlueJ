@@ -24,7 +24,7 @@ public class CaesarCipher
  
     public static void main(String[] args)
     {
-        String text = "ATTACKATONCE";
+        String text = "AARUSHINAIR";
         int s = 4;
         System.out.println("Text  : " + text);
         System.out.println("Shift : " + s);
