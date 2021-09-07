@@ -1,27 +1,28 @@
 import java.io.*;
-public class Prime
-{
-   int r;
-   int c;
-   int arr[][];
-   Prime()throws IOException{
+public class checkPrime {
+  
+  public static void main (String args[])throws IOException{
        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-       System.out.println("Enter the array row size <20");
-       r=Integer.parseInt(br.readLine());
-       System.out.println("Enter the array column size <20");
-       c=Integer.parseInt(br.readLine());
-       arr=new int[r][c];
-    }
-    int isPrime(int p){
-        int res;
-        if ((p==2)||(p/2!=0){
-            res=1;
-    }
-    else{
-        res=0;
-    }
-    return res;
-}
+       System.out.println("Enter the number");
+       int n=Integer.parseInt(br.readLine());
+       int m = n/2;
+       it flag = 0;
+     if(n==0||n==1){  
+             System.out.println(n+" is not prime number");      
+          }
+     else{  
+         for(int i=2;i<=m;i++){      
+               if(n%i==0){      
+                   System.out.println(n+" is not prime number");      
+                    flag=1;      
+                    break;      
+                   }      
+               }      
+         if(flag==0){
+            System.out.println(n+" is prime number");
+         }  
+     }  
+   }
 
  }
 
