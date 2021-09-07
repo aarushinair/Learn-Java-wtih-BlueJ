@@ -6,7 +6,7 @@ public class checkPrime {
        System.out.println("Enter the number");
        int n=Integer.parseInt(br.readLine());
        int m = n/2;
-       it flag = 0;
+       int flag = 0;
      if(n==0||n==1){  
              System.out.println(n+" is not prime number");      
           }
