@@ -1,6 +1,5 @@
 import java.io.*;
-public class Alpha
-{
+public class Alpha{
    String str;
    int l=0;
    String ch[];
@@ -19,22 +18,16 @@ public class Alpha
             char x=str.charAt(i);
             ch[i]=Character.toString(x);
         }
-        String small;
-        int pos;
         String tmp;
-        for (int i=0;i<l;i++){
-          small=ch[i];
-          pos=i;
+        for (int i=0;i<l;i++){ 
             for (int j=0;j<l-1;j++){
                 int val=ch[i].compareTo(ch[j]);
-                if (val>0){
-                    small=ch[j];
-                    pos=j;
+                if (val<0){
+                    tmp=ch[i];
+                    ch[i]=ch[j];
+                    ch[j]=tmp;
                 }
             }
-          tmp=ch[i];
-          ch[i]=ch[pos];
-          ch[pos]=tmp;
         }
     }
     void display(){
@@ -43,27 +36,11 @@ public class Alpha
             System.out.print(ch[i]);
         }
     }
-    public static void main (String args[]) throws IOException{
+     public static void main (String args[]) throws IOException{
         Alpha ob=new Alpha ();
         ob.readWord();
         ob.arrange();
         ob.display();
-    }
-    
+    }  
 }
 
-
-
-
-
-
-
-
-
-👋 Hi, I’m @aarushinair - Aarushi Nair (she/her/ella)
-👀 I’m a Computer Science Engineering Student
-💞️ I’m looking to collaborate on #java, #python, #R, #applicationdevelopment
-🌱 #GirlsWhoCode #WomenInTech #WomenInIT #WomenInSTEM #CyberSecurity #QuantumComputing #BlockChain #AI #ML
-📫 How to reach me: https://www.linkedin.com/in/aarushinair/
-👩‍🏫 YouTube Channel - Code with Aarushi : https://www.youtube.com/channel/UCKj5T1ELHCmkGKujkpqtl7Q
-🙋‍ Follow me on Twitter: https://twitter.com/aarushinair_
