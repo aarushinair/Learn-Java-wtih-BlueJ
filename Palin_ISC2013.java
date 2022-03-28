@@ -100,9 +100,6 @@ Step 7   :               End of algorithm for the function isPalin().
 
 
 
-
-
-
 👋 Hi, I’m @aarushinair - Aarushi Nair (she/her/ella)
 👀 I’m a Computer Science Engineering Student
 💞️ I’m looking to collaborate on #java, #python, #R, #applicationdevelopment
