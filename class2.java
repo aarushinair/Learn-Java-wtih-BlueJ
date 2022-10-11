@@ -33,21 +33,11 @@ public class class2  {
             System.out.println(b%c);
         default:
             System.out.println("Invalid Choice");
-    }
-    
-            
-           
+    }  
 
     }
-    
-    
-    
+
     }
-
-
-
-
-
 
 
 
