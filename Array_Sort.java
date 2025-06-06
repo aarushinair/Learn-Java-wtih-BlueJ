@@ -58,7 +58,7 @@ public class Array_Sort
 
 
 /*
-👋 Hi, I’m @aarushinair — Aarushi Aneesh Nair (she/her)
+👋 Hi, I’m @aarushinair — Aarushi Nair (she/her)
 🎓 CS Engineer | AI Researcher | Software Engineer | DEI Professional
 💡 Interests: AI/ML/DL, Responsible Tech, Innovative Technologies, Ethics in AI
 🌍 Advocate for Women in Tech | Community Manager @AnitaB.org India
